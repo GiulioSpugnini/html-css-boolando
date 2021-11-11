@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 /* Generics */
+.container{
+    max-width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: grey;
+}
+.product{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+}
+.product-img-space{
+    
+}
+.product-sale{
+
+}
+.product-sustainability{
+
+}
+.product-description{
+
+}
+/* Utilities */
