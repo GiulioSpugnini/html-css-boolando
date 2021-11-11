@@ -75,9 +75,11 @@ h2 {
 h4 {
   font-size: 0.8rem;
   font-style: normal;
+  font-weight: lighter;
 }
 .text-red {
   color: red;
+  font-weight: bold;
 }
 .bg-red {
   background-color: red;
