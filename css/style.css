@@ -22,6 +22,15 @@ article{
     background-size: cover;
     position: relative;
 }
+article::after{
+    content: "\2665";
+    position: absolute;
+    top: 15px;
+    left: 95%;
+}
+/* article:hover::after{
+    background-color: rgba(#ccc, #ccc, #ccc, 0.2);
+} */
 .product-sale{
     color: white;
     font-size: 12px;
@@ -45,7 +54,21 @@ article{
     left: 44px;
 }
 .product-description{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 30px;
 
+}
+h2{
+    font-size: 1rem;
+}
+h4{
+    font-size: 0.8rem;
+    font-style: normal;
+}
+.text-red{
+    color: red;
 }
 .bg-red{
     background-color: red;
@@ -78,4 +101,3 @@ article{
 #foto-sesto-articolo{
     background-image: url("../img/6.webp");
 }
-
