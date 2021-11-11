@@ -32,9 +32,9 @@ article::after {
   top: 20%;
   left: 92%;
 }
-/* article:hover::after{
+article:hover::after{
     background-color: rgba(#ccc, #ccc, #ccc, 0.2);
-} */
+}
 .product-sale {
   color: white;
   font-size: 12px;
@@ -89,6 +89,7 @@ h4 {
   width: 80px;
   height: 20px;
 }
+/* IMMAGINI */
 #foto-primo-articolo {
   background-image: url("../img/1.webp");
 }
@@ -106,4 +107,22 @@ h4 {
 }
 #foto-sesto-articolo {
   background-image: url("../img/6.webp");
+}
+#foto-primo-articolo:hover{
+    background-image: url("../img/1b.webp");
+}
+#foto-secondo-articolo:hover{
+    background-image: url("../img/2b.webp");
+}
+#foto-terzo-articolo:hover{
+    background-image: url("../img/3b.webp");
+}
+#foto-quarto-articolo:hover{
+    background-image: url("../img/4b.webp");
+}
+#foto-quinto-articolo:hover{
+    background-image: url("../img/5b.webp");
+}
+#foto-sesto-articolo:hover{
+    background-image: url("../img/6b.webp");
 }
