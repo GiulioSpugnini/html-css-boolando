@@ -28,7 +28,7 @@ body {
   cursor: pointer;
 }
 .articolo::after {
-  content: "\2665";
+  content: "\1F9E1";
   background-color: #fff;
   width: 30px;
   height: 30px;
