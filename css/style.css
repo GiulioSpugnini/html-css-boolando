@@ -28,7 +28,7 @@ body {
   cursor: pointer;
 }
 .articolo::after {
-  content: "\1F9E1";
+  content: "\1F5A4";
   background-color: #fff;
   width: 30px;
   height: 30px;
@@ -39,7 +39,9 @@ body {
   top: 5%;
   left: 90%;
 }
-
+.articolo:hover::after{
+  content: "\1F9E1";
+}
 .product-sale {
   color: white;
   font-size: 12px;
